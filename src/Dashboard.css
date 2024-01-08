@@ -1,19 +1,32 @@
 .dashboard {
   padding: 20px;
+  /* display: flex; */
+  background-color: black;
 }
-
+* {
+  /* background-color: grey; */
+}
 .upper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  color: black;
+  color: white;
+  /* background-color: #0f0; */
+}
+
+h2 {
+  text-align: left;
 }
 
 .internal-box {
+  /* background-color: green; */
   flex: 1;
   padding: 20px;
-  border: 1px solid #ddd;
+  border-left: 5px solid green;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  /* border: 1px solid #ddd; */
   border-radius: 5px;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-align: center;
 }
