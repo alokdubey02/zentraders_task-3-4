@@ -32,6 +32,8 @@ const App = () => {
   const handleLogin = () => {
     if (password === "SmartServTest@123") {
       setLoggedIn(true);
+    } else {
+      alert("Please enter correct password");
     }
   };
 
