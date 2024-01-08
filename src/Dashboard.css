@@ -1,6 +1,19 @@
-/* .dashboard {
-  width: 100%;
-} */
-img {
-  width: 100%;
+.dashboard {
+  padding: 20px;
+}
+
+.upper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: black;
+}
+
+.internal-box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
 }
